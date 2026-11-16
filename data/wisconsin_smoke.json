@@ -1,0 +1,42 @@
+{
+  "location": "Madison / Southern Wisconsin (Reference Demo)",
+  "coordinates": { "lat": 43.0731, "lon": -89.4012 },
+  "source": "Reference Demo — NASA MODIS Aerosol Optical Depth (AOD) & Smoke-Impacted Days (Illustrative Multi-Year Series)",
+  "years_covered": "2010-2025",
+  "series": [
+    { "year": 2010, "smoke_days": 4, "mean_summer_aod": 0.14 },
+    { "year": 2011, "smoke_days": 5, "mean_summer_aod": 0.15 },
+    { "year": 2012, "smoke_days": 9, "mean_summer_aod": 0.19 },
+    { "year": 2013, "smoke_days": 6, "mean_summer_aod": 0.16 },
+    { "year": 2014, "smoke_days": 5, "mean_summer_aod": 0.15 },
+    { "year": 2015, "smoke_days": 8, "mean_summer_aod": 0.18 },
+    { "year": 2016, "smoke_days": 7, "mean_summer_aod": 0.17 },
+    { "year": 2017, "smoke_days": 10, "mean_summer_aod": 0.21 },
+    { "year": 2018, "smoke_days": 12, "mean_summer_aod": 0.23 },
+    { "year": 2019, "smoke_days": 8, "mean_summer_aod": 0.19 },
+    { "year": 2020, "smoke_days": 11, "mean_summer_aod": 0.22 },
+    { "year": 2021, "smoke_days": 16, "mean_summer_aod": 0.28 },
+    { "year": 2022, "smoke_days": 10, "mean_summer_aod": 0.21 },
+    { "year": 2023, "smoke_days": 24, "mean_summer_aod": 0.39 },
+    { "year": 2024, "smoke_days": 15, "mean_summer_aod": 0.27 },
+    { "year": 2025, "smoke_days": 18, "mean_summer_aod": 0.31 }
+  ],
+  "trends": {
+    "smoke_days": {
+      "slope_per_year": 0.87,
+      "slope_per_decade": 8.7,
+      "r_squared": 0.62,
+      "p_value": 0.0003,
+      "significant_0_05": true,
+      "direction": "increasing"
+    },
+    "mean_summer_aod": {
+      "slope_per_year": 0.01,
+      "slope_per_decade": 0.1,
+      "r_squared": 0.59,
+      "p_value": 0.0005,
+      "significant_0_05": true,
+      "direction": "increasing"
+    }
+  }
+}

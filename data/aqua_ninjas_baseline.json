@@ -1,0 +1,58 @@
+{
+  "team_name": "Aqua Ninjas",
+  "region": "Frisco & McKinney (Collin / Denton County, TX)",
+  "status_note": "Pilot Baseline (N=2 drives, 1.0 gal total) — Too few points for statistical trend testing yet. Continuing monthly collection to build a long-term dataset.",
+  "oil_collection_drives": [
+    {
+      "drive_id": "Drive 1 (Pilot)",
+      "date": "2026-10-18",
+      "location": "Frisco, TX",
+      "gallons_collected": 0.5,
+      "households_reached": 45
+    },
+    {
+      "drive_id": "Drive 2 (Pilot)",
+      "date": "2026-11-07",
+      "location": "Frisco, TX",
+      "gallons_collected": 0.5,
+      "households_reached": 68
+    }
+  ],
+  "creek_microscope_samples": [
+    {
+      "sample_id": "Sample A",
+      "creek_name": "Frisco Local Creek #1",
+      "date": "2026-10-05",
+      "microplastic_fragments_per_liter": 14,
+      "dominant_type": "Fibers & film fragments"
+    },
+    {
+      "sample_id": "Sample B",
+      "creek_name": "Frisco Local Creek #2",
+      "date": "2026-10-25",
+      "microplastic_fragments_per_liter": 19,
+      "dominant_type": "Foam & broken-down floaty/wrapper bits"
+    }
+  ],
+  "frisco_potential": {
+    "households": 84855,
+    "population_estimate": 236000,
+    "nrel_uco_lbs_per_person_year": 9.0,
+    "lbs_per_gallon": 7.5,
+    "epa_fog_sewer_blockage_pct": 47,
+    "north_texas_roundup_season_gal": 8500,
+    "conservative_gal_per_household_month": 0.125,
+    "sources": [
+      "U.S. Census Bureau QuickFacts / ACS: Official household counts & household sizes across all 25 Texas cities",
+      "U.S. EPA: Fats, Oils, and Grease (FOG) account for ~47% of reported municipal sewer blockages, causing Sanitary Sewer Overflows",
+      "NREL (National Renewable Energy Laboratory): ~9 lbs of used cooking oil/grease generated per person/year in metro areas (~7.5 lbs/gal)",
+      "Defend Your Drains North Texas (NCTCOG): Regional Holiday Grease Roundup intercepts 8,500+ gallons in a single season"
+    ]
+  },
+  "outreach_highlights": [
+    "2 pilot waste cooking oil collection drives in Frisco, TX (1.0 gallon collected)",
+    "Door-to-door neighborhood campaigning on proper waste cooking oil disposal",
+    "Community awareness sessions on stormwater drain pathways to Texas lakes & the Gulf",
+    "Pool, water-park, and boat plastic-capture prevention concept"
+  ]
+}

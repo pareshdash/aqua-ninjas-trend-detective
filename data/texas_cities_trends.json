@@ -1,0 +1,3805 @@
+{
+  "cities": {
+    "frisco": {
+      "id": "frisco",
+      "location": "Frisco, TX (Aqua Ninjas)",
+      "basin": "Trinity River Basin",
+      "color": "#38bdf8",
+      "routeText": "Frisco storm drains -> Stewart Creek / Lake Lewisville -> Elm Fork Trinity -> Trinity River -> Galveston Bay -> Gulf of Mexico",
+      "coords": [
+        [
+          33.1507,
+          -96.8236
+        ],
+        [
+          33.07,
+          -96.95
+        ],
+        [
+          32.7767,
+          -96.797
+        ],
+        [
+          32.15,
+          -96.15
+        ],
+        [
+          30.72,
+          -95.15
+        ],
+        [
+          29.75,
+          -94.75
+        ],
+        [
+          29.35,
+          -94.78
+        ],
+        [
+          28.95,
+          -94.45
+        ]
+      ],
+      "coordinates": {
+        "lat": 33.1507,
+        "lon": -96.8236
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 7
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 1
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0446,
+          "slope_per_decade": 0.446,
+          "r_squared": 0.0454,
+          "p_value": 0.3063,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 84855,
+      "persons_per_household": 2.8
+    },
+    "mckinney": {
+      "id": "mckinney",
+      "location": "McKinney, TX (Aqua Ninjas)",
+      "basin": "Trinity River Basin",
+      "color": "#10b981",
+      "routeText": "McKinney storm drains -> Wilson Creek / Lake Lavon -> East Fork Trinity -> Trinity River -> Galveston Bay -> Gulf of Mexico",
+      "coords": [
+        [
+          33.1972,
+          -96.6398
+        ],
+        [
+          33.04,
+          -96.48
+        ],
+        [
+          32.62,
+          -96.48
+        ],
+        [
+          32.15,
+          -96.15
+        ],
+        [
+          30.72,
+          -95.15
+        ],
+        [
+          29.75,
+          -94.75
+        ],
+        [
+          29.35,
+          -94.78
+        ],
+        [
+          28.95,
+          -94.45
+        ]
+      ],
+      "coordinates": {
+        "lat": 33.1972,
+        "lon": -96.6398
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 7
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 1
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0446,
+          "slope_per_decade": 0.446,
+          "r_squared": 0.0454,
+          "p_value": 0.3063,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 85091,
+      "persons_per_household": 2.6
+    },
+    "plano": {
+      "id": "plano",
+      "location": "Plano, TX",
+      "basin": "Trinity River Basin",
+      "color": "#22d3ee",
+      "routeText": "Plano storm drains -> Rowlett / White Rock Creek -> East Fork Trinity -> Trinity River -> Galveston Bay -> Gulf of Mexico",
+      "coords": [
+        [
+          33.0198,
+          -96.6989
+        ],
+        [
+          32.86,
+          -96.56
+        ],
+        [
+          32.62,
+          -96.48
+        ],
+        [
+          32.15,
+          -96.15
+        ],
+        [
+          30.72,
+          -95.15
+        ],
+        [
+          29.75,
+          -94.75
+        ],
+        [
+          29.35,
+          -94.78
+        ],
+        [
+          28.95,
+          -94.45
+        ]
+      ],
+      "coordinates": {
+        "lat": 33.0198,
+        "lon": -96.6989
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 7
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 1
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0446,
+          "slope_per_decade": 0.446,
+          "r_squared": 0.0454,
+          "p_value": 0.3063,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 112438,
+      "persons_per_household": 2.57
+    },
+    "dallas": {
+      "id": "dallas",
+      "location": "Dallas, TX",
+      "basin": "Trinity River Basin",
+      "color": "#60a5fa",
+      "routeText": "Dallas storm drains -> Trinity River -> Lake Livingston -> Galveston Bay -> Gulf of Mexico",
+      "coords": [
+        [
+          32.7767,
+          -96.797
+        ],
+        [
+          32.15,
+          -96.15
+        ],
+        [
+          30.72,
+          -95.15
+        ],
+        [
+          29.75,
+          -94.75
+        ],
+        [
+          29.35,
+          -94.78
+        ],
+        [
+          28.95,
+          -94.45
+        ]
+      ],
+      "coordinates": {
+        "lat": 32.7767,
+        "lon": -96.797
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 7
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 1
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0446,
+          "slope_per_decade": 0.446,
+          "r_squared": 0.0454,
+          "p_value": 0.3063,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 505816,
+      "persons_per_household": 2.57
+    },
+    "fortworth": {
+      "id": "fortworth",
+      "location": "Fort Worth, TX",
+      "basin": "Trinity River Basin",
+      "color": "#818cf8",
+      "routeText": "Fort Worth storm drains -> West Fork Trinity -> Trinity River (Dallas) -> Galveston Bay -> Gulf of Mexico",
+      "coords": [
+        [
+          32.7555,
+          -97.3308
+        ],
+        [
+          32.77,
+          -97.02
+        ],
+        [
+          32.7767,
+          -96.797
+        ],
+        [
+          32.15,
+          -96.15
+        ],
+        [
+          30.72,
+          -95.15
+        ],
+        [
+          29.75,
+          -94.75
+        ],
+        [
+          29.35,
+          -94.78
+        ],
+        [
+          28.95,
+          -94.45
+        ]
+      ],
+      "coordinates": {
+        "lat": 32.7555,
+        "lon": -97.3308
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 5
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 0
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0085,
+          "slope_per_decade": 0.085,
+          "r_squared": 0.0027,
+          "p_value": 0.8038,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 342126,
+      "persons_per_household": 2.76
+    },
+    "arlington": {
+      "id": "arlington",
+      "location": "Arlington, TX",
+      "basin": "Trinity River Basin",
+      "color": "#3b82f6",
+      "routeText": "Arlington storm drains -> Johnson Creek / West Fork Trinity -> Trinity River -> Galveston Bay -> Gulf of Mexico",
+      "coords": [
+        [
+          32.7357,
+          -97.1081
+        ],
+        [
+          32.77,
+          -96.95
+        ],
+        [
+          32.7767,
+          -96.797
+        ],
+        [
+          32.15,
+          -96.15
+        ],
+        [
+          30.72,
+          -95.15
+        ],
+        [
+          29.75,
+          -94.75
+        ],
+        [
+          29.35,
+          -94.78
+        ],
+        [
+          28.95,
+          -94.45
+        ]
+      ],
+      "coordinates": {
+        "lat": 32.7357,
+        "lon": -97.1081
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 6
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 0
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": -0.0023,
+          "slope_per_decade": -0.023,
+          "r_squared": 0.0002,
+          "p_value": 0.9531,
+          "significant_0_05": false,
+          "direction": "decreasing"
+        }
+      },
+      "households": 142455,
+      "persons_per_household": 2.74
+    },
+    "denton": {
+      "id": "denton",
+      "location": "Denton, TX",
+      "basin": "Trinity River Basin",
+      "color": "#06b6d4",
+      "routeText": "Denton storm drains -> Hickory Creek / Lake Lewisville -> Elm Fork Trinity -> Galveston Bay -> Gulf of Mexico",
+      "coords": [
+        [
+          33.2148,
+          -97.1331
+        ],
+        [
+          33.07,
+          -96.95
+        ],
+        [
+          32.7767,
+          -96.797
+        ],
+        [
+          32.15,
+          -96.15
+        ],
+        [
+          30.72,
+          -95.15
+        ],
+        [
+          29.75,
+          -94.75
+        ],
+        [
+          29.35,
+          -94.78
+        ],
+        [
+          28.95,
+          -94.45
+        ]
+      ],
+      "coordinates": {
+        "lat": 33.2148,
+        "lon": -97.1331
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 7
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 1
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0446,
+          "slope_per_decade": 0.446,
+          "r_squared": 0.0454,
+          "p_value": 0.3063,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 59003,
+      "persons_per_household": 2.6
+    },
+    "tyler": {
+      "id": "tyler",
+      "location": "Tyler, TX",
+      "basin": "Neches River Basin",
+      "color": "#2dd4bf",
+      "routeText": "Tyler storm drains -> Lake Palestine / Neches River -> Sabine Lake -> Gulf of Mexico",
+      "coords": [
+        [
+          32.3513,
+          -95.3011
+        ],
+        [
+          31.95,
+          -95.35
+        ],
+        [
+          30.85,
+          -94.55
+        ],
+        [
+          30.0802,
+          -94.1266
+        ],
+        [
+          29.72,
+          -93.86
+        ],
+        [
+          29.45,
+          -93.78
+        ]
+      ],
+      "coordinates": {
+        "lat": 32.3513,
+        "lon": -95.3011
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 5
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 5
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 7
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 1
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0577,
+          "slope_per_decade": 0.577,
+          "r_squared": 0.0562,
+          "p_value": 0.2538,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 38505,
+      "persons_per_household": 2.7
+    },
+    "longview": {
+      "id": "longview",
+      "location": "Longview, TX",
+      "basin": "Sabine River Basin",
+      "color": "#14b8a6",
+      "routeText": "Longview storm drains -> Sabine River -> Toledo Bend -> Sabine Lake -> Gulf of Mexico",
+      "coords": [
+        [
+          32.5007,
+          -94.7405
+        ],
+        [
+          31.95,
+          -94.15
+        ],
+        [
+          31.15,
+          -93.58
+        ],
+        [
+          30.05,
+          -93.72
+        ],
+        [
+          29.72,
+          -93.86
+        ],
+        [
+          29.45,
+          -93.78
+        ]
+      ],
+      "coordinates": {
+        "lat": 32.5007,
+        "lon": -94.7405
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 5
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 5
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 7
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 1
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0577,
+          "slope_per_decade": 0.577,
+          "r_squared": 0.0562,
+          "p_value": 0.2538,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 33947,
+      "persons_per_household": 2.35
+    },
+    "waco": {
+      "id": "waco",
+      "location": "Waco, TX",
+      "basin": "Brazos River Basin",
+      "color": "#f59e0b",
+      "routeText": "Waco storm drains -> Brazos River -> Freeport Estuary -> Gulf of Mexico",
+      "coords": [
+        [
+          31.5493,
+          -97.1467
+        ],
+        [
+          30.65,
+          -96.55
+        ],
+        [
+          29.62,
+          -95.88
+        ],
+        [
+          28.88,
+          -95.38
+        ],
+        [
+          28.62,
+          -95.15
+        ]
+      ],
+      "coordinates": {
+        "lat": 31.5493,
+        "lon": -97.1467
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 0
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": -0.0062,
+          "slope_per_decade": -0.062,
+          "r_squared": 0.0018,
+          "p_value": 0.8393,
+          "significant_0_05": false,
+          "direction": "decreasing"
+        }
+      },
+      "households": 53906,
+      "persons_per_household": 2.51
+    },
+    "killeen": {
+      "id": "killeen",
+      "location": "Killeen, TX",
+      "basin": "Brazos River Basin",
+      "color": "#eab308",
+      "routeText": "Killeen storm drains -> Lampasas / Little River -> Brazos River -> Freeport -> Gulf of Mexico",
+      "coords": [
+        [
+          31.1171,
+          -97.7278
+        ],
+        [
+          30.85,
+          -97.12
+        ],
+        [
+          30.65,
+          -96.55
+        ],
+        [
+          29.62,
+          -95.88
+        ],
+        [
+          28.88,
+          -95.38
+        ],
+        [
+          28.62,
+          -95.15
+        ]
+      ],
+      "coordinates": {
+        "lat": 31.1171,
+        "lon": -97.7278
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 2
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0092,
+          "slope_per_decade": 0.092,
+          "r_squared": 0.0062,
+          "p_value": 0.7075,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 60609,
+      "persons_per_household": 2.7
+    },
+    "collegestation": {
+      "id": "collegestation",
+      "location": "College Station, TX",
+      "basin": "Brazos River Basin",
+      "color": "#fbbf24",
+      "routeText": "College Station storm drains -> Carter Creek / Navasota & Brazos Rivers -> Freeport -> Gulf of Mexico",
+      "coords": [
+        [
+          30.628,
+          -96.3344
+        ],
+        [
+          30.35,
+          -96.15
+        ],
+        [
+          29.62,
+          -95.88
+        ],
+        [
+          28.88,
+          -95.38
+        ],
+        [
+          28.62,
+          -95.15
+        ]
+      ],
+      "coordinates": {
+        "lat": 30.628,
+        "lon": -96.3344
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 0
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0062,
+          "slope_per_decade": 0.062,
+          "r_squared": 0.0013,
+          "p_value": 0.8618,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 46214,
+      "persons_per_household": 2.37
+    },
+    "austin": {
+      "id": "austin",
+      "location": "Austin, TX",
+      "basin": "Colorado River Basin (TX)",
+      "color": "#a78bfa",
+      "routeText": "Austin storm drains -> Lady Bird Lake / Colorado River -> Matagorda Bay -> Gulf of Mexico",
+      "coords": [
+        [
+          30.2672,
+          -97.7431
+        ],
+        [
+          29.71,
+          -96.98
+        ],
+        [
+          29.05,
+          -96.15
+        ],
+        [
+          28.65,
+          -95.98
+        ],
+        [
+          28.38,
+          -95.75
+        ]
+      ],
+      "coordinates": {
+        "lat": 30.2672,
+        "lon": -97.7431
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 1
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0285,
+          "slope_per_decade": 0.285,
+          "r_squared": 0.0427,
+          "p_value": 0.3214,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 486000,
+      "persons_per_household": 2.3
+    },
+    "sanmarcos": {
+      "id": "sanmarcos",
+      "location": "San Marcos, TX",
+      "basin": "Guadalupe River Basin",
+      "color": "#c084fc",
+      "routeText": "San Marcos storm drains -> San Marcos River -> Guadalupe River -> San Antonio Bay -> Gulf of Mexico",
+      "coords": [
+        [
+          29.8833,
+          -97.9414
+        ],
+        [
+          29.52,
+          -97.58
+        ],
+        [
+          28.8053,
+          -97.0036
+        ],
+        [
+          28.32,
+          -96.75
+        ],
+        [
+          28.08,
+          -96.52
+        ]
+      ],
+      "coordinates": {
+        "lat": 29.8833,
+        "lon": -97.9414
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 0
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0,
+          "slope_per_decade": 0.0,
+          "r_squared": 0.0,
+          "p_value": 1.0,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 28013,
+      "persons_per_household": 2.28
+    },
+    "sanantonio": {
+      "id": "sanantonio",
+      "location": "San Antonio, TX",
+      "basin": "San Antonio River Basin",
+      "color": "#fb7185",
+      "routeText": "San Antonio storm drains -> San Antonio River -> San Antonio Bay -> Gulf of Mexico",
+      "coords": [
+        [
+          29.4241,
+          -98.4936
+        ],
+        [
+          28.88,
+          -97.85
+        ],
+        [
+          28.45,
+          -96.95
+        ],
+        [
+          28.32,
+          -96.75
+        ],
+        [
+          28.08,
+          -96.52
+        ]
+      ],
+      "coordinates": {
+        "lat": 29.4241,
+        "lon": -98.4936
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 0
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": -0.0208,
+          "slope_per_decade": -0.208,
+          "r_squared": 0.0309,
+          "p_value": 0.4008,
+          "significant_0_05": false,
+          "direction": "decreasing"
+        }
+      },
+      "households": 570000,
+      "persons_per_household": 2.6
+    },
+    "victoria": {
+      "id": "victoria",
+      "location": "Victoria, TX",
+      "basin": "Guadalupe River Basin",
+      "color": "#facc15",
+      "routeText": "Victoria storm drains -> Guadalupe River -> San Antonio Bay -> Gulf of Mexico",
+      "coords": [
+        [
+          28.8053,
+          -97.0036
+        ],
+        [
+          28.55,
+          -96.88
+        ],
+        [
+          28.32,
+          -96.75
+        ],
+        [
+          28.08,
+          -96.52
+        ]
+      ],
+      "coordinates": {
+        "lat": 28.8053,
+        "lon": -97.0036
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 5
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 0
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.03,
+          "slope_per_decade": 0.3,
+          "r_squared": 0.026,
+          "p_value": 0.4411,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 28000,
+      "persons_per_household": 2.5
+    },
+    "houston": {
+      "id": "houston",
+      "location": "Houston, TX",
+      "basin": "San Jacinto / Buffalo Bayou",
+      "color": "#f97316",
+      "routeText": "Houston storm drains -> Buffalo Bayou / Ship Channel -> Galveston Bay -> Gulf of Mexico",
+      "coords": [
+        [
+          29.7604,
+          -95.3698
+        ],
+        [
+          29.72,
+          -95.02
+        ],
+        [
+          29.35,
+          -94.78
+        ],
+        [
+          28.95,
+          -94.45
+        ]
+      ],
+      "coordinates": {
+        "lat": 29.7604,
+        "lon": -95.3698
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 6
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 5
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 0
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": -0.0146,
+          "slope_per_decade": -0.146,
+          "r_squared": 0.0049,
+          "p_value": 0.7402,
+          "significant_0_05": false,
+          "direction": "decreasing"
+        }
+      },
+      "households": 930000,
+      "persons_per_household": 2.46
+    },
+    "galveston": {
+      "id": "galveston",
+      "location": "Galveston, TX",
+      "basin": "Galveston Bay Coastal Basin",
+      "color": "#fb923c",
+      "routeText": "Galveston storm drains -> Galveston Bay / Bolivar Roads -> Gulf of Mexico",
+      "coords": [
+        [
+          29.3013,
+          -94.7977
+        ],
+        [
+          29.35,
+          -94.72
+        ],
+        [
+          28.95,
+          -94.45
+        ]
+      ],
+      "coordinates": {
+        "lat": 29.3013,
+        "lon": -94.7977
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 5
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 10
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 8
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 7
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 7
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 6
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 0
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0246,
+          "slope_per_decade": 0.246,
+          "r_squared": 0.0042,
+          "p_value": 0.7591,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 21500,
+      "persons_per_household": 2.3
+    },
+    "beaumont": {
+      "id": "beaumont",
+      "location": "Beaumont, TX",
+      "basin": "Neches / Sabine Basin",
+      "color": "#34d399",
+      "routeText": "Beaumont storm drains -> Neches River -> Sabine Lake -> Sabine Pass -> Gulf of Mexico",
+      "coords": [
+        [
+          30.0802,
+          -94.1266
+        ],
+        [
+          29.92,
+          -93.92
+        ],
+        [
+          29.72,
+          -93.86
+        ],
+        [
+          29.45,
+          -93.78
+        ]
+      ],
+      "coordinates": {
+        "lat": 30.0802,
+        "lon": -94.1266
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 6
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 5
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 8
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 8
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 7
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 7
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 5
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 4
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 0
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0077,
+          "slope_per_decade": 0.077,
+          "r_squared": 0.0005,
+          "p_value": 0.9137,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 43000,
+      "persons_per_household": 2.5
+    },
+    "corpuschristi": {
+      "id": "corpuschristi",
+      "location": "Corpus Christi, TX",
+      "basin": "Nueces / Coastal Bend Basin",
+      "color": "#f472b6",
+      "routeText": "Corpus Christi storm drains -> Nueces / Corpus Christi Bay -> Aransas Pass -> Gulf of Mexico",
+      "coords": [
+        [
+          27.8006,
+          -97.3964
+        ],
+        [
+          27.82,
+          -97.22
+        ],
+        [
+          27.83,
+          -97.05
+        ],
+        [
+          27.68,
+          -96.82
+        ]
+      ],
+      "coordinates": {
+        "lat": 27.8006,
+        "lon": -97.3964
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 1
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0346,
+          "slope_per_decade": 0.346,
+          "r_squared": 0.1281,
+          "p_value": 0.079,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 125000,
+      "persons_per_household": 2.5
+    },
+    "laredo": {
+      "id": "laredo",
+      "location": "Laredo, TX",
+      "basin": "Rio Grande Basin",
+      "color": "#e879f9",
+      "routeText": "Laredo storm drains -> Rio Grande -> Falcon Lake -> Brownsville -> Gulf of Mexico",
+      "coords": [
+        [
+          27.5306,
+          -99.4803
+        ],
+        [
+          26.85,
+          -99.15
+        ],
+        [
+          26.18,
+          -98.23
+        ],
+        [
+          25.9017,
+          -97.4975
+        ],
+        [
+          25.95,
+          -97.14
+        ],
+        [
+          25.95,
+          -96.85
+        ]
+      ],
+      "coordinates": {
+        "lat": 27.5306,
+        "lon": -99.4803
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 1
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0331,
+          "slope_per_decade": 0.331,
+          "r_squared": 0.1185,
+          "p_value": 0.0919,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 70000,
+      "persons_per_household": 3.4
+    },
+    "mcallen": {
+      "id": "mcallen",
+      "location": "McAllen, TX",
+      "basin": "Rio Grande Basin",
+      "color": "#d946ef",
+      "routeText": "McAllen storm drains -> Arroyo Colorado / Rio Grande -> Laguna Madre -> Gulf of Mexico",
+      "coords": [
+        [
+          26.2034,
+          -98.23
+        ],
+        [
+          26.12,
+          -97.65
+        ],
+        [
+          25.95,
+          -97.14
+        ],
+        [
+          25.95,
+          -96.85
+        ]
+      ],
+      "coordinates": {
+        "lat": 26.2034,
+        "lon": -98.23
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 3
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 2
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0331,
+          "slope_per_decade": 0.331,
+          "r_squared": 0.0717,
+          "p_value": 0.1957,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 50000,
+      "persons_per_household": 2.9
+    },
+    "brownsville": {
+      "id": "brownsville",
+      "location": "Brownsville, TX",
+      "basin": "Rio Grande Basin",
+      "color": "#f43f5e",
+      "routeText": "Brownsville storm drains -> Rio Grande / Brownsville Ship Channel -> Gulf of Mexico",
+      "coords": [
+        [
+          25.9017,
+          -97.4975
+        ],
+        [
+          25.95,
+          -97.14
+        ],
+        [
+          25.95,
+          -96.85
+        ]
+      ],
+      "coordinates": {
+        "lat": 25.9017,
+        "lon": -97.4975
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 2
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0377,
+          "slope_per_decade": 0.377,
+          "r_squared": 0.1539,
+          "p_value": 0.0524,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 55000,
+      "persons_per_household": 3.3
+    },
+    "abilene": {
+      "id": "abilene",
+      "location": "Abilene, TX",
+      "basin": "Brazos River Basin",
+      "color": "#fcd34d",
+      "routeText": "Abilene storm drains -> Clear Fork Brazos -> Brazos River (Waco) -> Freeport -> Gulf of Mexico",
+      "coords": [
+        [
+          32.4487,
+          -99.7331
+        ],
+        [
+          32.65,
+          -98.85
+        ],
+        [
+          31.5493,
+          -97.1467
+        ],
+        [
+          30.65,
+          -96.55
+        ],
+        [
+          29.62,
+          -95.88
+        ],
+        [
+          28.88,
+          -95.38
+        ],
+        [
+          28.62,
+          -95.15
+        ]
+      ],
+      "coordinates": {
+        "lat": 32.4487,
+        "lon": -99.7331
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 0
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": 0.0038,
+          "slope_per_decade": 0.038,
+          "r_squared": 0.0025,
+          "p_value": 0.8132,
+          "significant_0_05": false,
+          "direction": "increasing"
+        }
+      },
+      "households": 48000,
+      "persons_per_household": 2.46
+    },
+    "lubbock": {
+      "id": "lubbock",
+      "location": "Lubbock, TX",
+      "basin": "Brazos River Basin",
+      "color": "#fde047",
+      "routeText": "Lubbock storm drains -> Double Mountain Fork Brazos -> Brazos River -> Freeport -> Gulf of Mexico",
+      "coords": [
+        [
+          33.5779,
+          -101.8552
+        ],
+        [
+          33.15,
+          -100.45
+        ],
+        [
+          32.65,
+          -98.85
+        ],
+        [
+          31.5493,
+          -97.1467
+        ],
+        [
+          30.65,
+          -96.55
+        ],
+        [
+          29.62,
+          -95.88
+        ],
+        [
+          28.88,
+          -95.38
+        ],
+        [
+          28.62,
+          -95.15
+        ]
+      ],
+      "coordinates": {
+        "lat": 33.5779,
+        "lon": -101.8552
+      },
+      "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+      "years_covered": "2001-2025",
+      "series": [
+        {
+          "year": 2001,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2002,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2003,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2004,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2005,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2006,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2007,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2008,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2009,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2010,
+          "extreme_rain_days_gt50mm": 2
+        },
+        {
+          "year": 2011,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2012,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2013,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2014,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2015,
+          "extreme_rain_days_gt50mm": 1
+        },
+        {
+          "year": 2016,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2017,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2018,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2019,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2020,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2021,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2022,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2023,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2024,
+          "extreme_rain_days_gt50mm": 0
+        },
+        {
+          "year": 2025,
+          "extreme_rain_days_gt50mm": 0
+        }
+      ],
+      "trends": {
+        "extreme_rain_days_gt50mm": {
+          "slope_per_year": -0.0138,
+          "slope_per_decade": -0.138,
+          "r_squared": 0.0415,
+          "p_value": 0.3285,
+          "significant_0_05": false,
+          "direction": "decreasing"
+        }
+      },
+      "households": 95000,
+      "persons_per_household": 2.5
+    }
+  }
+}

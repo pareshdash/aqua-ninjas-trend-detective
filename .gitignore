@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Build / deployment output
+dist/
+
+# Raw API caches
+data/*_raw.json
+data/frisco_nasa_power_raw.json
+
+# Environment & secrets
+.env
+.env.*
+
+# Logs & temporary files
+*.log
+*.tmp
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

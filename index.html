@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Earth System Trend Detective — Aqua Ninjas (NASA Space Apps 2026)</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <span class="badge">NASA Space Apps Challenge 2026 • Be An Earth System Trend Detective!</span>
+        <h1>Earth System Trend Detective</h1>
+        <p class="subtitle">
+          A student-friendly tool to test whether extreme rainfall events are increasing stormwater runoff risk for local water—featuring
+          <strong>Aqua Ninjas (Frisco &amp; McKinney, TX)</strong> as our real-world prevention case study.
+        </p>
+      </div>
+      <div class="header-meta" style="flex-direction:column;align-items:flex-end;">
+        <div style="display:flex;flex-wrap:wrap;gap:0.5rem;">
+          <div class="meta-pill">Theme: The Next Frontier</div>
+          <div class="meta-pill">NASA POWER (2001–2025)</div>
+        </div>
+        <label class="city-select-wrap">
+          <span>Select Texas City:</span>
+          <select id="city-select" class="city-select" aria-label="Select Texas City">
+            <option value="frisco">Frisco, TX (Aqua Ninjas)</option>
+          </select>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Demo Switcher Tabs -->
+    <section class="card" aria-label="Earth System Trend Explorer">
+      <div class="section-head">
+        <div>
+          <h2>1. Interactive Water &amp; Runoff Trend Detective</h2>
+          <p class="muted" style="margin:0;">Extreme Rain Days (&gt;50 mm/day) across Texas cities (NASA POWER, 2001–2025)</p>
+        </div>
+      </div>
+
+      <div id="panel-explorer">
+        <div class="controls-row" id="variable-controls" aria-label="Select Variable"></div>
+
+        <div class="kpi-grid" id="kpi-grid"></div>
+
+        <div class="chart-wrapper">
+          <div class="chart-header">
+            <div>
+              <h3 id="chart-title">Loading NASA dataset...</h3>
+              <p id="chart-source" class="muted"></p>
+            </div>
+            <div class="legend">
+              <span class="legend-item"><i class="dot dot-data"></i> Observed (2001–2025)</span>
+              <span class="legend-item"><i class="dot dot-trend"></i> Linear Trendline</span>
+              <span class="legend-item"><i class="dot dot-proj"></i> Illustrative Linear Slope Continuation (2026–2050)</span>
+            </div>
+            <label class="proj-toggle">
+              <input type="checkbox" id="toggle-projection" checked />
+              Show Illustrative 2026–2050 Linear Slope Continuation (Not a Climate Forecast)
+            </label>
+          </div>
+          <div id="chart-container" class="chart-container"></div>
+          <div id="chart-tooltip" class="chart-tooltip" hidden></div>
+        </div>
+
+        <div class="insight-box" id="insight-box"></div>
+        <div id="trend-leaderboard" class="leaderboard-wrap"></div>
+      </div>
+    </section>
+
+    <!-- Texas City-to-Gulf 4-Step Pathway -->
+    <section class="card">
+      <h2 id="pathway-heading">2. Why Now? The Texas City-to-Gulf Runoff Pathway</h2>
+      <p class="muted">
+        NASA satellites cannot directly see microplastics inside a neighborhood creek. Instead, Trend Detective tests the
+        <strong>upstream extreme-rainfall driver</strong> that pushes street oil and plastic into local waterways:
+      </p>
+      <div class="pathway-grid">
+        <div class="pathway-step">
+          <span class="step-num">1</span>
+          <h3>Extreme Rain</h3>
+          <p id="pathway-step-1">Intense rainstorms (&gt;50 mm/day) generate sudden urban stormwater runoff.</p>
+        </div>
+        <div class="pathway-step">
+          <span class="step-num">2</span>
+          <h3>Urban Runoff</h3>
+          <p>Runoff washes waste oil, grease, and broken-down plastic fragments off streets into storm drains.</p>
+        </div>
+        <div class="pathway-step">
+          <span class="step-num">3</span>
+          <h3 id="pathway-step-3-title">Creeks &amp; River Basin</h3>
+          <p id="pathway-step-3">Storm drains empty untreated into local creeks and downstream Texas rivers and bays.</p>
+        </div>
+        <div class="pathway-step">
+          <span class="step-num">4</span>
+          <h3>Gulf of Mexico</h3>
+          <p>Watershed outflows carry persistent plastics and surfactants downstream toward the Gulf.</p>
+        </div>
+      </div>
+
+      <div class="evidence-box">
+        <h3 id="evidence-heading">Downstream NASA Satellite Visualization (Texas Watersheds &rarr; Gulf)</h3>
+        <p id="evidence-intro">
+          Texas river basins carry urban stormwater runoff into coastal bays and the Gulf of Mexico. Explore the live NASA satellite layers on the map below to see how three NASA missions observe each stage:
+        </p>
+        <div class="sensor-grid">
+          <div class="sensor-card">
+            <span class="badge">Stage 1 • River Plumes</span>
+            <h4>NASA MODIS &amp; VIIRS True Color</h4>
+            <p class="muted">Captures real post-storm sediment and urban runoff plumes flushing down Texas rivers into coastal bays.</p>
+            <div class="sensor-actions">
+              <button type="button" class="var-btn active" data-map-layer="modis2017">View 2017 Storm Plume</button>
+              <button type="button" class="var-btn" data-map-layer="viirs2024">View 2024 Flood Plume</button>
+            </div>
+          </div>
+          <div class="sensor-card">
+            <span class="badge">Stage 2 • Surfactant Damping</span>
+            <h4>NASA CYGNSS (L3 Microplastics)</h4>
+            <p class="muted">Detects river-mouth microplastic &amp; surfactant plumes via radar ocean-surface roughness damping (~25 km grid).</p>
+            <div class="sensor-actions">
+              <a class="var-btn" href="https://podaac.jpl.nasa.gov/dataset/CYGNSS_L3_MICROPLASTIC_V1.0" target="_blank" rel="noopener">Open PO.DAAC Dataset &nearr;</a>
+            </div>
+          </div>
+          <div class="sensor-card">
+            <span class="badge">Stage 3 • Coastal Water Quality</span>
+            <h4>NASA PACE &amp; VIIRS Ocean Color</h4>
+            <p class="muted">Measures post-storm spikes in coastal turbidity, suspended solids, and runoff-driven algal blooms.</p>
+            <div class="sensor-actions">
+              <button type="button" class="var-btn" id="btn-zoom-gulf">Zoom to Texas Bay Plumes</button>
+              <a class="var-btn" href="https://worldview.earthdata.nasa.gov/?v=-98.5,26.5,-92.5,31.0&t=2017-09-02" target="_blank" rel="noopener">NASA Worldview &nearr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-section">
+        <div class="section-head">
+          <div>
+            <h3>Interactive Texas City-to-Gulf Watershed &amp; NASA Satellite Map</h3>
+            <p class="muted">
+              Toggle between the dark watershed map and real <strong>NASA GIBS satellite imagery</strong>, or click any city to trace its river path to the Gulf.
+            </p>
+          </div>
+          <div class="layer-pills" id="layer-pills">
+            <button type="button" class="city-pill active" data-layer="base">Dark Watershed Base</button>
+            <button type="button" class="city-pill" data-layer="modis2017">NASA MODIS (2017 Storm Plumes)</button>
+            <button type="button" class="city-pill" data-layer="viirs2024">NASA VIIRS (2024 Flood Plumes)</button>
+          </div>
+        </div>
+        <div class="city-pills" id="city-pills" style="margin-bottom:0.65rem;"></div>
+        <div id="texas-map" class="texas-map" aria-label="Interactive Texas Watershed Map"></div>
+        <div id="map-route-info" class="insight-box" style="margin-top:0.75rem;"></div>
+      </div>
+    </section>
+
+    <!-- Waste Oil Collection Potential & Pilot Stats -->
+    <section class="two-col">
+      <div class="card">
+        <div class="section-head">
+          <h2>3. Local Action Response (Aqua Ninjas Use Case): Waste Oil Potential &amp; Pilot Stats</h2>
+          <span class="badge badge-warn" id="pilot-badge">Pilot: N=2 Drives</span>
+        </div>
+
+        <div class="potential-box" style="margin-top:0;margin-bottom:1rem;">
+          <h3 id="potential-title">Frisco, TX — Monthly Collection Potential</h3>
+          <p class="muted" style="margin:0.25rem 0 0.6rem;">
+            To estimate monthly residential potential, we combine official
+            <strong>U.S. Census</strong>, <strong>EPA</strong>, <strong>NREL</strong>, and <strong>North Texas</strong> data:
+          </p>
+          <ul class="facts-list" id="potential-sources"></ul>
+          <label class="sim-label" style="margin-top:0.75rem;">
+            <span>Household Participation Rate: <strong id="val-participation">5</strong>% of <strong id="val-city-households">84,855</strong> households (~1 pint / 0.125 gal per home/mo)</span>
+            <input type="range" id="sim-participation" min="1" max="20" value="5" />
+          </label>
+          <div class="baseline-stats" id="potential-stats"></div>
+          <div id="potential-chart" class="potential-chart" aria-label="Statistical comparison chart of monthly oil collection potential"></div>
+        </div>
+
+        <h3 id="pilot-city-heading">Aqua Ninjas Pilot Drive Statistics — Frisco, TX</h3>
+        <p class="muted" id="baseline-note">Loading local field data...</p>
+        <div class="baseline-stats" id="baseline-stats"></div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Drive</th>
+                <th>Date</th>
+                <th>Location</th>
+                <th>Oil (gal)</th>
+                <th>Households</th>
+              </tr>
+            </thead>
+            <tbody id="drives-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>4. Local Action Response: City Action &amp; Target-Gap Simulator</h2>
+        <p class="muted" id="sim-subtitle">
+          Simulate how scaling Aqua Ninjas drives and partner drop-off sites closes the gap toward the selected city’s monthly target in Section 3:
+        </p>
+
+        <div class="sim-controls">
+          <label class="sim-label">
+            <span>Neighborhood Drives / Drop-Off Sites per Month: <strong id="val-drives">12</strong> sites/mo</span>
+            <input type="range" id="sim-drives" min="1" max="60" value="12" />
+          </label>
+          <label class="sim-label">
+            <span>Avg. Oil Collected per Site/Drive: <strong id="val-gallons">15</strong> gal</span>
+            <input type="range" id="sim-gallons" min="1" max="50" value="15" />
+          </label>
+        </div>
+
+        <div class="target-progress-wrap">
+          <div class="target-progress-head">
+            <span>Progress Toward Selected City Target</span>
+            <strong id="target-progress-label">0%</strong>
+          </div>
+          <div class="target-progress-bar">
+            <div id="target-progress-fill" class="target-progress-fill" style="width:0%"></div>
+          </div>
+          <p class="muted" id="target-gap-note" style="margin:0.45rem 0 0;font-size:0.84rem;"></p>
+        </div>
+
+        <div class="sim-results" id="sim-results"></div>
+
+        <div class="outreach-box">
+          <h3>Active Aqua Ninjas Outreach</h3>
+          <ul id="outreach-list"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        Built for the <strong>2026 NASA International Space Apps Challenge</strong> • Data Sources:
+        <a href="https://power.larc.nasa.gov/" target="_blank" rel="noopener">NASA POWER API (MERRA-2 / GPM-derived)</a> &amp;
+        Aqua Ninjas Local Field Logs.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

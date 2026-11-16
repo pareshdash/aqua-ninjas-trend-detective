@@ -1,0 +1,279 @@
+{
+  "location": "Frisco / Collin-Denton County, TX",
+  "coordinates": {
+    "lat": 33.1507,
+    "lon": -96.8236
+  },
+  "source": "NASA POWER API (MERRA-2 / GPM-derived, 2001-2025)",
+  "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR,TS,T2M,GWETTOP&community=AG&longitude=-96.8236&latitude=33.1507&start=20010101&end=20251231&format=JSON",
+  "years_covered": "2001-2025",
+  "series": [
+    {
+      "year": 2001,
+      "total_precip_mm": 972.3,
+      "heavy_rain_days_gt25mm": 7,
+      "extreme_rain_days_gt50mm": 0,
+      "summer_surface_temp_c": 30.2,
+      "summer_air_temp_c": 29.09,
+      "mean_soil_wetness": 0.718
+    },
+    {
+      "year": 2002,
+      "total_precip_mm": 1010.0,
+      "heavy_rain_days_gt25mm": 7,
+      "extreme_rain_days_gt50mm": 1,
+      "summer_surface_temp_c": 29.46,
+      "summer_air_temp_c": 28.42,
+      "mean_soil_wetness": 0.684
+    },
+    {
+      "year": 2003,
+      "total_precip_mm": 635.1,
+      "heavy_rain_days_gt25mm": 3,
+      "extreme_rain_days_gt50mm": 0,
+      "summer_surface_temp_c": 30.93,
+      "summer_air_temp_c": 29.5,
+      "mean_soil_wetness": 0.633
+    },
+    {
+      "year": 2004,
+      "total_precip_mm": 1157.3,
+      "heavy_rain_days_gt25mm": 9,
+      "extreme_rain_days_gt50mm": 1,
+      "summer_surface_temp_c": 27.07,
+      "summer_air_temp_c": 26.55,
+      "mean_soil_wetness": 0.704
+    },
+    {
+      "year": 2005,
+      "total_precip_mm": 473.9,
+      "heavy_rain_days_gt25mm": 2,
+      "extreme_rain_days_gt50mm": 0,
+      "summer_surface_temp_c": 31.21,
+      "summer_air_temp_c": 29.75,
+      "mean_soil_wetness": 0.575
+    },
+    {
+      "year": 2006,
+      "total_precip_mm": 727.1,
+      "heavy_rain_days_gt25mm": 7,
+      "extreme_rain_days_gt50mm": 1,
+      "summer_surface_temp_c": 32.56,
+      "summer_air_temp_c": 30.78,
+      "mean_soil_wetness": 0.559
+    },
+    {
+      "year": 2007,
+      "total_precip_mm": 1214.2,
+      "heavy_rain_days_gt25mm": 10,
+      "extreme_rain_days_gt50mm": 0,
+      "summer_surface_temp_c": 26.55,
+      "summer_air_temp_c": 26.37,
+      "mean_soil_wetness": 0.749
+    },
+    {
+      "year": 2008,
+      "total_precip_mm": 815.4,
+      "heavy_rain_days_gt25mm": 6,
+      "extreme_rain_days_gt50mm": 1,
+      "summer_surface_temp_c": 30.95,
+      "summer_air_temp_c": 29.58,
+      "mean_soil_wetness": 0.635
+    },
+    {
+      "year": 2009,
+      "total_precip_mm": 1159.6,
+      "heavy_rain_days_gt25mm": 11,
+      "extreme_rain_days_gt50mm": 0,
+      "summer_surface_temp_c": 30.37,
+      "summer_air_temp_c": 29.2,
+      "mean_soil_wetness": 0.684
+    },
+    {
+      "year": 2010,
+      "total_precip_mm": 875.9,
+      "heavy_rain_days_gt25mm": 9,
+      "extreme_rain_days_gt50mm": 1,
+      "summer_surface_temp_c": 31.53,
+      "summer_air_temp_c": 30.29,
+      "mean_soil_wetness": 0.699
+    },
+    {
+      "year": 2011,
+      "total_precip_mm": 632.0,
+      "heavy_rain_days_gt25mm": 5,
+      "extreme_rain_days_gt50mm": 0,
+      "summer_surface_temp_c": 35.19,
+      "summer_air_temp_c": 33.41,
+      "mean_soil_wetness": 0.56
+    },
+    {
+      "year": 2012,
+      "total_precip_mm": 796.7,
+      "heavy_rain_days_gt25mm": 8,
+      "extreme_rain_days_gt50mm": 2,
+      "summer_surface_temp_c": 30.98,
+      "summer_air_temp_c": 29.74,
+      "mean_soil_wetness": 0.627
+    },
+    {
+      "year": 2013,
+      "total_precip_mm": 800.7,
+      "heavy_rain_days_gt25mm": 7,
+      "extreme_rain_days_gt50mm": 0,
+      "summer_surface_temp_c": 30.76,
+      "summer_air_temp_c": 29.41,
+      "mean_soil_wetness": 0.628
+    },
+    {
+      "year": 2014,
+      "total_precip_mm": 654.0,
+      "heavy_rain_days_gt25mm": 5,
+      "extreme_rain_days_gt50mm": 0,
+      "summer_surface_temp_c": 29.4,
+      "summer_air_temp_c": 28.29,
+      "mean_soil_wetness": 0.627
+    },
+    {
+      "year": 2015,
+      "total_precip_mm": 1611.1,
+      "heavy_rain_days_gt25mm": 15,
+      "extreme_rain_days_gt50mm": 7,
+      "summer_surface_temp_c": 28.97,
+      "summer_air_temp_c": 28.38,
+      "mean_soil_wetness": 0.716
+    },
+    {
+      "year": 2016,
+      "total_precip_mm": 1039.5,
+      "heavy_rain_days_gt25mm": 10,
+      "extreme_rain_days_gt50mm": 0,
+      "summer_surface_temp_c": 28.66,
+      "summer_air_temp_c": 28.18,
+      "mean_soil_wetness": 0.746
+    },
+    {
+      "year": 2017,
+      "total_precip_mm": 863.4,
+      "heavy_rain_days_gt25mm": 7,
+      "extreme_rain_days_gt50mm": 0,
+      "summer_surface_temp_c": 28.5,
+      "summer_air_temp_c": 27.77,
+      "mean_soil_wetness": 0.642
+    },
+    {
+      "year": 2018,
+      "total_precip_mm": 1116.1,
+      "heavy_rain_days_gt25mm": 12,
+      "extreme_rain_days_gt50mm": 3,
+      "summer_surface_temp_c": 32.26,
+      "summer_air_temp_c": 30.83,
+      "mean_soil_wetness": 0.672
+    },
+    {
+      "year": 2019,
+      "total_precip_mm": 863.2,
+      "heavy_rain_days_gt25mm": 7,
+      "extreme_rain_days_gt50mm": 0,
+      "summer_surface_temp_c": 29.38,
+      "summer_air_temp_c": 28.58,
+      "mean_soil_wetness": 0.699
+    },
+    {
+      "year": 2020,
+      "total_precip_mm": 1031.7,
+      "heavy_rain_days_gt25mm": 11,
+      "extreme_rain_days_gt50mm": 2,
+      "summer_surface_temp_c": 30.12,
+      "summer_air_temp_c": 29.09,
+      "mean_soil_wetness": 0.676
+    },
+    {
+      "year": 2021,
+      "total_precip_mm": 801.4,
+      "heavy_rain_days_gt25mm": 3,
+      "extreme_rain_days_gt50mm": 0,
+      "summer_surface_temp_c": 28.72,
+      "summer_air_temp_c": 28.04,
+      "mean_soil_wetness": 0.651
+    },
+    {
+      "year": 2022,
+      "total_precip_mm": 773.8,
+      "heavy_rain_days_gt25mm": 8,
+      "extreme_rain_days_gt50mm": 2,
+      "summer_surface_temp_c": 33.42,
+      "summer_air_temp_c": 31.81,
+      "mean_soil_wetness": 0.575
+    },
+    {
+      "year": 2023,
+      "total_precip_mm": 735.0,
+      "heavy_rain_days_gt25mm": 5,
+      "extreme_rain_days_gt50mm": 0,
+      "summer_surface_temp_c": 33.82,
+      "summer_air_temp_c": 32.27,
+      "mean_soil_wetness": 0.608
+    },
+    {
+      "year": 2024,
+      "total_precip_mm": 1052.7,
+      "heavy_rain_days_gt25mm": 8,
+      "extreme_rain_days_gt50mm": 2,
+      "summer_surface_temp_c": 31.09,
+      "summer_air_temp_c": 29.92,
+      "mean_soil_wetness": 0.653
+    },
+    {
+      "year": 2025,
+      "total_precip_mm": 879.9,
+      "heavy_rain_days_gt25mm": 7,
+      "extreme_rain_days_gt50mm": 1,
+      "summer_surface_temp_c": 30.09,
+      "summer_air_temp_c": 29.07,
+      "mean_soil_wetness": 0.642
+    }
+  ],
+  "trends": {
+    "total_precip_mm": {
+      "slope_per_year": 1.6766,
+      "slope_per_decade": 16.766,
+      "r_squared": 0.0027,
+      "p_value": 0.8055,
+      "significant_0_05": false,
+      "direction": "increasing"
+    },
+    "heavy_rain_days_gt25mm": {
+      "slope_per_year": 0.0569,
+      "slope_per_decade": 0.569,
+      "r_squared": 0.0199,
+      "p_value": 0.5017,
+      "significant_0_05": false,
+      "direction": "increasing"
+    },
+    "extreme_rain_days_gt50mm": {
+      "slope_per_year": 0.0446,
+      "slope_per_decade": 0.446,
+      "r_squared": 0.0454,
+      "p_value": 0.3063,
+      "significant_0_05": false,
+      "direction": "increasing"
+    },
+    "summer_surface_temp_c": {
+      "slope_per_year": 0.0454,
+      "slope_per_decade": 0.454,
+      "r_squared": 0.0281,
+      "p_value": 0.4236,
+      "significant_0_05": false,
+      "direction": "increasing"
+    },
+    "mean_soil_wetness": {
+      "slope_per_year": -0.0008,
+      "slope_per_decade": -0.008,
+      "r_squared": 0.0125,
+      "p_value": 0.5952,
+      "significant_0_05": false,
+      "direction": "decreasing"
+    }
+  }
+}
